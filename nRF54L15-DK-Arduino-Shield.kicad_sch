@@ -869,192 +869,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_arduino-library:Arduino_101_Shield"
 			(pin_names
 				(offset 1.016)
@@ -2527,8 +2341,16 @@
 		(uuid "fdce378e-fe95-4b3d-8916-e920cc50d732")
 	)
 	(no_connect
+		(at 243.84 86.36)
+		(uuid "016dbdd1-3fe8-45f7-ba8f-278f6d3aba8b")
+	)
+	(no_connect
 		(at 97.79 67.31)
 		(uuid "05a2a149-a9dc-4e9c-8691-c1050ff0b716")
+	)
+	(no_connect
+		(at 193.04 93.98)
+		(uuid "0636f572-d92d-44fd-9e14-81cb7bee8318")
 	)
 	(no_connect
 		(at 31.75 104.14)
@@ -2563,6 +2385,10 @@
 		(uuid "3d061cb7-ca87-46a0-871f-05ca6f4d1e01")
 	)
 	(no_connect
+		(at 243.84 76.2)
+		(uuid "478ff161-fdeb-4ef7-b31b-8066862b4ac5")
+	)
+	(no_connect
 		(at 107.95 91.44)
 		(uuid "4c780553-4d59-487c-8ba7-212be585495b")
 	)
@@ -2587,8 +2413,16 @@
 		(uuid "5ac33ebf-b140-4f43-b8cc-e47bc4be0d73")
 	)
 	(no_connect
+		(at 193.04 66.04)
+		(uuid "5ca111db-7755-4b11-9651-4c3ea5182588")
+	)
+	(no_connect
 		(at 243.84 116.84)
 		(uuid "5fa8fbb3-e1e1-40b8-b795-8a0d17d42e97")
+	)
+	(no_connect
+		(at 193.04 68.58)
+		(uuid "615608f8-c8d4-42cf-b49c-531c7533f852")
 	)
 	(no_connect
 		(at 100.33 67.31)
@@ -2603,12 +2437,20 @@
 		(uuid "78915688-61dc-43e4-a35a-20111fce0998")
 	)
 	(no_connect
+		(at 243.84 81.28)
+		(uuid "7c576a6a-a713-42ef-a2e3-b24a4aa7e33a")
+	)
+	(no_connect
 		(at 243.84 106.68)
 		(uuid "864765b6-2342-4bff-abe1-0a6d73d0126a")
 	)
 	(no_connect
 		(at 102.87 127)
 		(uuid "86d034c4-60eb-433c-a0dd-ac2bfe9c2cf1")
+	)
+	(no_connect
+		(at 243.84 66.04)
+		(uuid "8af2e1eb-e2b7-4ef7-9804-88964f1237d3")
 	)
 	(no_connect
 		(at 95.25 67.31)
@@ -2647,6 +2489,14 @@
 		(uuid "b9f58e81-2a03-4f0f-a947-8afaabb1d2b5")
 	)
 	(no_connect
+		(at 243.84 83.82)
+		(uuid "c80caee3-1fb5-4fca-84d1-b48745fe074c")
+	)
+	(no_connect
+		(at 193.04 96.52)
+		(uuid "d0270be3-0ca3-4237-96a8-a2dde421dcbd")
+	)
+	(no_connect
 		(at 30.48 139.7)
 		(uuid "dbd81cd5-45db-4dd5-a98c-d1e26d7ffa9a")
 	)
@@ -2676,16 +2526,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 66.04) (xy 243.84 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05765a73-6b5e-4e84-aec8-b680bf043cb5")
-	)
-	(wire
-		(pts
 			(xy 193.04 114.3) (xy 193.04 116.84)
 		)
 		(stroke
@@ -2696,16 +2536,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 99.06) (xy 193.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186063aa-7aa1-4419-9f01-570b92d64e07")
-	)
-	(wire
-		(pts
 			(xy 243.84 119.38) (xy 259.08 119.38)
 		)
 		(stroke
@@ -2713,16 +2543,6 @@
 			(type default)
 		)
 		(uuid "3a26ab51-557c-4231-8069-81b670e5a1ee")
-	)
-	(wire
-		(pts
-			(xy 251.46 76.2) (xy 243.84 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bbbe64d-0c44-4044-914e-1f5d72bba26d")
 	)
 	(wire
 		(pts
@@ -2743,16 +2563,6 @@
 			(type default)
 		)
 		(uuid "449e09dc-f733-4831-ba70-6a5f1de57b41")
-	)
-	(wire
-		(pts
-			(xy 185.42 93.98) (xy 193.04 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481f312f-0295-4c2f-92f5-221917c9c936")
 	)
 	(wire
 		(pts
@@ -2813,46 +2623,6 @@
 			(type default)
 		)
 		(uuid "8420ccf2-80f7-4c27-b485-049f1c4e3243")
-	)
-	(wire
-		(pts
-			(xy 185.42 91.44) (xy 193.04 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97be4998-f609-4ecd-9bd8-d6022a653447")
-	)
-	(wire
-		(pts
-			(xy 185.42 96.52) (xy 193.04 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1903bd8-c3b5-413e-8d6a-dd7b383fd202")
-	)
-	(wire
-		(pts
-			(xy 251.46 68.58) (xy 243.84 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba83b834-5308-40aa-bc97-985db7d77429")
-	)
-	(wire
-		(pts
-			(xy 251.46 73.66) (xy 243.84 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcbdfeb2-21c0-4795-8a14-55245cc956e0")
 	)
 	(wire
 		(pts
@@ -2944,6 +2714,16 @@
 		)
 		(uuid "007f34da-5bc7-4427-b1a0-daa0754f90d5")
 	)
+	(label "P2.10"
+		(at 193.04 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05236f40-401e-43bf-b606-079e741fd396")
+	)
 	(label "P0.01"
 		(at 87.63 54.61 90)
 		(effects
@@ -2953,26 +2733,6 @@
 			(justify left bottom)
 		)
 		(uuid "08317001-ffca-4a3e-b503-509b942ef759")
-	)
-	(label "P0.00"
-		(at 193.04 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14db288e-5006-4833-a3a0-b6e170420f6a")
-	)
-	(label "P1.05"
-		(at 177.8 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1956dbfd-3456-48e0-9424-53ddbc4c1412")
 	)
 	(label "P2.07"
 		(at 95.25 127 90)
@@ -2984,16 +2744,6 @@
 		)
 		(uuid "19b4322c-1df6-4e9e-9988-edc55c3a1339")
 	)
-	(label "P2.09"
-		(at 243.84 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a6e847b-15f1-4fc1-ad7d-46aa9892edb1")
-	)
 	(label "P1.07"
 		(at 95.25 91.44 90)
 		(effects
@@ -3003,26 +2753,6 @@
 			(justify left bottom)
 		)
 		(uuid "1ad72981-7f82-4db1-b460-4cd01d5daa9c")
-	)
-	(label "P2.10"
-		(at 243.84 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23dbb55e-f63b-4917-920b-df267ebd3b2a")
-	)
-	(label "P0.04"
-		(at 243.84 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26169844-f48d-4ee0-b24b-1255e756336b")
 	)
 	(label "P2.05"
 		(at 92.71 127 90)
@@ -3034,15 +2764,15 @@
 		)
 		(uuid "2c0e6a3a-5fdc-4325-89c5-7d75f6dfe5be")
 	)
-	(label "P1.06"
-		(at 177.8 93.98 180)
+	(label "P2.07"
+		(at 193.04 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3264e7b9-b028-4c8b-9b88-bfd142a8c9fd")
+		(uuid "3214cb69-1c8b-4dd3-a79b-5231f9945582")
 	)
 	(label "P1.00"
 		(at 87.63 104.14 270)
@@ -3084,8 +2814,18 @@
 		)
 		(uuid "53658544-c839-41c0-a4ca-be15c6611f51")
 	)
+	(label "P1.06"
+		(at 243.84 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "548c980b-916e-4bca-bd42-2287d820b357")
+	)
 	(label "P1.04"
-		(at 177.8 99.06 180)
+		(at 193.04 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3103,16 +2843,6 @@
 			(justify right bottom)
 		)
 		(uuid "5775d6d1-8651-4e67-875a-adadc3536104")
-	)
-	(label "P0.02"
-		(at 259.08 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5830ad18-d8d8-4866-9c31-b5216319f6f4")
 	)
 	(label "P1.14"
 		(at 105.41 104.14 270)
@@ -3154,15 +2884,15 @@
 		)
 		(uuid "6566da34-f0b7-47a5-a4b5-fe16e726ae67")
 	)
-	(label "P1.08"
-		(at 193.04 76.2 180)
+	(label "P1.05"
+		(at 243.84 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "6bc7d6be-cf27-4d58-ad58-c9112755ad9f")
+		(uuid "6c6b0921-657c-4bcf-aa88-3f8a8c05b847")
 	)
 	(label "P1.03"
 		(at 90.17 91.44 90)
@@ -3173,16 +2903,6 @@
 			(justify left bottom)
 		)
 		(uuid "6d005f29-32af-4697-928a-8e1270d957c5")
-	)
-	(label "P1.02"
-		(at 259.08 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6eccd6b6-435d-4345-b983-70fe19167952")
 	)
 	(label "P0.03"
 		(at 90.17 54.61 90)
@@ -3203,16 +2923,6 @@
 			(justify left bottom)
 		)
 		(uuid "74e44888-15ca-499e-9a7d-0cc45cb89f26")
-	)
-	(label "P1.03"
-		(at 259.08 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77419324-171f-4477-a719-dc6501344ce4")
 	)
 	(label "P0.02"
 		(at 90.17 67.31 270)
@@ -3254,25 +2964,15 @@
 		)
 		(uuid "8f30f341-5300-4e90-af1e-d453ce6f09e0")
 	)
-	(label "P1.10"
-		(at 243.84 81.28 0)
+	(label "P2.09"
+		(at 243.84 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "96b57622-63f2-4e0d-8e52-673fb3c407af")
-	)
-	(label "P1.13"
-		(at 193.04 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "971a8726-7a07-45db-a8a1-b5d69debd237")
+		(uuid "96719d1d-62c6-4780-9b77-ad00f9e873c9")
 	)
 	(label "P1.12"
 		(at 102.87 104.14 270)
@@ -3294,25 +2994,15 @@
 		)
 		(uuid "99da5516-f309-4cd1-a7ac-582369dc6f4b")
 	)
-	(label "P1.12"
-		(at 193.04 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ba4db38-c1bb-4776-8964-842c897535d9")
-	)
-	(label "P1.14"
-		(at 243.84 83.82 0)
+	(label "P2.08"
+		(at 243.84 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a270800f-a43b-46a5-88d7-0eb5a26d390f")
+		(uuid "a26c1234-6fd6-4491-b889-e2508315b3d7")
 	)
 	(label "P1.04"
 		(at 92.71 104.14 270)
@@ -3334,16 +3024,6 @@
 		)
 		(uuid "a4d614ed-e0db-4ba0-b6b6-eae11731cc29")
 	)
-	(label "P2.08"
-		(at 243.84 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8555009-2c73-4319-9cbe-efbccc21ee0e")
-	)
 	(label "P2.10"
 		(at 100.33 139.7 270)
 		(effects
@@ -3353,16 +3033,6 @@
 			(justify right bottom)
 		)
 		(uuid "be12ea4e-446f-499d-adff-a40a2924baac")
-	)
-	(label "P1.09"
-		(at 243.84 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c529a125-71ad-4b8f-a865-420b8f995670")
 	)
 	(label "P2.09"
 		(at 97.79 127 90)
@@ -3382,7 +3052,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d6701b16-2a3a-4552-a5c4-9843325f987f")
+		(uuid "d24bd33e-0957-4924-92bc-473e21a38dd9")
 	)
 	(label "P1.01"
 		(at 87.63 91.44 90)
@@ -3414,16 +3084,6 @@
 		)
 		(uuid "e33a80c4-afcc-4b51-83b7-146295f598bc")
 	)
-	(label "P0.01"
-		(at 193.04 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e8ab27a9-855c-4de9-856b-349be5a636c0")
-	)
 	(label "P1.09"
 		(at 97.79 91.44 90)
 		(effects
@@ -3435,7 +3095,7 @@
 		(uuid "eb8c3cd2-330f-4579-80d0-62cfdd84aa1c")
 	)
 	(label "P0.03"
-		(at 259.08 68.58 0)
+		(at 243.84 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3443,6 +3103,26 @@
 			(justify left bottom)
 		)
 		(uuid "eba0967c-cfcd-45a5-8d4b-d9990e8a4110")
+	)
+	(label "P1.12"
+		(at 193.04 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebd1449f-ca19-408c-846e-f1d5c9d8acba")
+	)
+	(label "P0.02"
+		(at 243.84 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f49855dc-7c55-4612-a1b5-2b037ff80904")
 	)
 	(label "P2.06"
 		(at 95.25 139.7 270)
@@ -3455,7 +3135,7 @@
 		(uuid "fb27d912-ba90-41fc-ae2a-460644c3cdd2")
 	)
 	(label "P1.07"
-		(at 177.8 91.44 180)
+		(at 193.04 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3700,76 +3380,6 @@
 			(project "nRF54L15-DK-Arduino-Shield"
 				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
 					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 181.61 99.06 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d5dfea2-5153-4703-9a1f-8a54e51ebd7d")
-		(property "Reference" "JP5"
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "009a5e70-a6f3-42ac-a5bd-084ddc57ab3a")
-		)
-		(pin "2"
-			(uuid "68af8417-dff0-4efd-bbbb-07f79cc0b6c7")
-		)
-		(instances
-			(project "nRF54L15-DK-Arduino-Shield"
-				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
-					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -4250,76 +3860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 255.27 66.04 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "471441c4-6dfc-495a-945d-28a43b7830c4")
-		(property "Reference" "JP3"
-			(at 255.27 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 255.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 255.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 255.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcd512a6-0b17-4511-bbcb-21f417edba3d")
-		)
-		(pin "2"
-			(uuid "795a0578-8edd-40e2-b737-d41a033e2d5b")
-		)
-		(instances
-			(project "nRF54L15-DK-Arduino-Shield"
-				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 193.04 119.38 0)
 		(unit 1)
@@ -4570,76 +4110,6 @@
 			(project "nRF54L15-DK-Arduino-Shield"
 				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
 					(reference "GPIO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 181.61 96.52 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53832cf8-36b3-4b50-884b-331a0b0bb902")
-		(property "Reference" "JP6"
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 181.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f41ff56-76f1-4ec0-b365-13f6e3a8e473")
-		)
-		(pin "2"
-			(uuid "2cdfde4c-620a-4e5f-bf97-4718f62ca269")
-		)
-		(instances
-			(project "nRF54L15-DK-Arduino-Shield"
-				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
-					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -5044,76 +4514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 255.27 76.2 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bfa3d91-e5cf-445d-9370-f574f702794c")
-		(property "Reference" "JP2"
-			(at 255.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 255.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 255.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 255.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb38c524-9193-4913-8898-47e44d564b8c")
-		)
-		(pin "2"
-			(uuid "9cb41829-99be-4aa7-b171-75573bb58f79")
-		)
-		(instances
-			(project "nRF54L15-DK-Arduino-Shield"
-				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 87.63 0)
 		(unit 1)
@@ -5312,76 +4712,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 181.61 93.98 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b73f432f-bab1-4ca7-8a35-2e6c38479bcd")
-		(property "Reference" "JP7"
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 181.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 181.61 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 181.61 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a283550b-c832-4abe-8557-39867aff213f")
-		)
-		(pin "2"
-			(uuid "f5cd2e42-2cdb-4510-af6c-5ca4fbb1a24b")
-		)
-		(instances
-			(project "nRF54L15-DK-Arduino-Shield"
-				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
-					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 19.05 54.61 0)
 		(unit 1)
@@ -5514,76 +4844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 255.27 73.66 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7cf2c79-8936-43ad-9200-9e3f4de39080")
-		(property "Reference" "JP1"
-			(at 255.27 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 255.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 255.27 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 255.27 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f23bfa09-6938-471a-8136-844c089ab8fd")
-		)
-		(pin "2"
-			(uuid "99ae737e-14fa-443a-a0a7-327971b81673")
-		)
-		(instances
-			(project ""
-				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 181.61 111.76 0)
 		(unit 1)
@@ -5644,146 +4904,6 @@
 			(project "nRF54L15-DK-Arduino-Shield"
 				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 255.27 68.58 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f948c8df-4935-4337-a65c-d4789e352670")
-		(property "Reference" "JP4"
-			(at 255.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 255.27 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 255.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 255.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc485064-eaac-48b8-8ff6-41b0c6951381")
-		)
-		(pin "2"
-			(uuid "8493f44d-8c53-4a10-9a7a-598df5f40199")
-		)
-		(instances
-			(project "nRF54L15-DK-Arduino-Shield"
-				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 181.61 91.44 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9f20fa2-99ee-4ea7-99d6-db9c12308d9c")
-		(property "Reference" "JP8"
-			(at 181.61 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 181.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 181.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 181.61 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca74c7b6-8fab-411a-a27d-50723507c343")
-		)
-		(pin "2"
-			(uuid "ddedeee3-68c3-4795-90ab-87e98d45ebca")
-		)
-		(instances
-			(project "nRF54L15-DK-Arduino-Shield"
-				(path "/cab962bd-2af5-48c0-b36b-f604681d0ad9"
-					(reference "JP8")
 					(unit 1)
 				)
 			)
